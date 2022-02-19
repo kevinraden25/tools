@@ -1,0 +1,309 @@
+14:33:51.281 -------------------------------------------------------------------------------
+>Log Session: Saturday, February 19, 2022 2:33:51 PM WIB
+>System Info: 
+  Product Version         = Maltego Commercial 20170928-unknown-revn
+  Operating System        = Linux version 5.5.0-kali2-amd64 running on amd64
+  Java; VM; Vendor        = 1.8.0_212; OpenJDK 64-Bit Server VM 25.212-b01; Oracle Corporation
+  Runtime                 = OpenJDK Runtime Environment 1.8.0_212-8u212-b01-1-b01
+  Java Home               = /usr/lib/jvm/java-8-openjdk-amd64/jre
+  System Locale; Encoding = en_US (maltego); UTF-8
+  Home Directory          = /home/raden
+  Current Directory       = /usr/share/maltego/bin
+  User Directory          = /home/raden/.maltego/v4.2.3
+  Cache Directory         = /home/raden/.maltego/v4.2.3/var/cache
+  Installation            = /usr/share/maltego/maltego
+                            /usr/share/maltego/groovy
+                            /usr/share/maltego/ide
+                            /usr/share/maltego/java
+                            /usr/share/maltego/maltego-ui
+                            /usr/share/maltego/maltego-core-platform
+                            /usr/share/maltego/extra
+                            /usr/share/maltego/platform
+  Boot & Ext. Classpath   = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+  Application Classpath   = /usr/share/maltego/platform/lib/boot.jar:/usr/share/maltego/platform/lib/org-openide-modules.jar:/usr/share/maltego/platform/lib/org-openide-util.jar:/usr/share/maltego/platform/lib/org-openide-util-lookup.jar
+  Startup Classpath       = /usr/share/maltego/platform/core/core.jar:/usr/share/maltego/platform/core/org-openide-filesystems.jar:/usr/share/maltego/maltego/core/locale/core_maltego.jar
+-------------------------------------------------------------------------------
+14:33:52.697 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.java.editor.lib] use org.netbeans.modules.editor.deprecated.pre65formatting which is deprecated.
+14:33:52.833 WARNING [org.netbeans.core.projects.cache]: Inefficient to include an empty layer in a module: jar:file:/usr/share/maltego/maltego-core-platform/modules/com-paterva-maltego-transform-gen.jar!/com/paterva/maltego/transform/gen/layer.xml
+14:33:53.603 INFO [org.officelaf.Installer]: Default Text Antialias (JRE) = OFF
+14:33:53.603 INFO [org.officelaf.Installer]: Desktop Text Antialias (Swing) = ON (Before modified from preferences)
+14:33:53.615 INFO [org.officelaf.Installer]: Desktop Text Antialias (Swing) = LCD_HRGB (After modified from preferences)
+14:33:53.617 INFO [org.officelaf.Installer]: SVG reader plugin expected: class com.twelvemonkeys.imageio.plugins.svg.SVGImageReader
+14:33:53.641 INFO [org.officelaf.Installer]: SVG reader plugin found: com.twelvemonkeys.imageio.plugins.svg.SVGImageReader@abc1155
+14:33:53.641 INFO [org.officelaf.Installer]: ICO reader plugin expected: class com.twelvemonkeys.imageio.plugins.bmp.ICOImageReader
+14:33:53.646 INFO [org.officelaf.Installer]: ICO reader plugin found: com.twelvemonkeys.imageio.plugins.bmp.ICOImageReader@3ffdd947
+14:33:53.646 INFO [org.officelaf.Installer]: TIFF reader plugin expected: class com.twelvemonkeys.imageio.plugins.tiff.TIFFImageReader
+14:33:53.657 INFO [org.officelaf.Installer]: TIFF reader plugin found: com.twelvemonkeys.imageio.plugins.tiff.TIFFImageReader@336feb66
+14:33:53.657 INFO [org.officelaf.Installer]: BMP reader plugin expected: class com.twelvemonkeys.imageio.plugins.bmp.BMPImageReader
+14:33:53.660 INFO [org.officelaf.Installer]: BMP reader plugin found: com.twelvemonkeys.imageio.plugins.bmp.BMPImageReader@13e6fcf6
+14:33:53.661 INFO [org.officelaf.Installer]: BMP reader plugin found: com.sun.imageio.plugins.bmp.BMPImageReader@79ba7166
+14:33:53.663 INFO [org.officelaf.MaltegoLAFRefresher]: LAF: linux: com.bulenkov.darcula.DarculaLaf
+14:33:53.848 INFO [org.officelaf.MaltegoLAFRefresher]: LAF: linux: com.bulenkov.darcula.DarculaLaf
+14:33:53.913 INFO [org.netbeans.core2.network.proxy.NetworkProxyReloader]: System network proxy resolver: no suitable found, using fallback.
+14:33:53.914 INFO [org.netbeans.core2.network.proxy.fallback.FallbackNetworkProxy]: Fallback system proxy resolver: no http_proxy variable found
+14:33:53.915 INFO [org.netbeans.core2.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
+14:33:53.915 INFO [org.netbeans.core2.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
+14:33:53.947 INFO [com.paterva.maltego.licensing.ui.Installer]: License mode: Unknown
+14:33:53.948 INFO [com.paterva.maltego.util.Installer]: Version: Maltego 4.2.3.12223
+14:33:55.145 INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+14:33:55.146 	org.openide.util.lookup [8.25.1 20161010-unknown-revn]
+	org.openide.util [8.39.3 20161010-unknown-revn]
+	org.openide.modules [7.43.1 20161010-unknown-revn]
+	org.netbeans.libs.xerces/1 [1.35.1.282 282 20160425-unknown-revn]
+	y [2.1 190315]
+	org.simpleframework.xml [2.3.5 190315]
+	org.pushingpixels.trident [2.1 190315]
+	org.pushingpixels.flamingo [2.2 190315]
+	org.netbeans.api.annotations.common/1 [1.24.1 20161010-unknown-revn]
+	org.openide.filesystems [8.12.1 20161010-unknown-revn]
+	org.openide.awt [7.62.2 20161010-unknown-revn]
+	org.netbeans.swing.plaf [1.37.1 20161010-unknown-revn]
+	org.netbeans.api.progress/1 [1.38.1 20161010-unknown-revn]
+	org.openide.dialogs [7.38.3 20161010-unknown-revn]
+	org.openide.nodes [7.39.1 20161010-unknown-revn]
+	org.openide.windows [6.71.1 20161010-unknown-revn]
+	org.netbeans.swing.tabcontrol [1.51.2 20161010-unknown-revn]
+	org.netbeans.swing.outline [1.30.2 20161010-unknown-revn]
+	org.openide.explorer [6.57.5 20190104-unknown-revn]
+	org.netbeans.modules.editor.mimelookup/1 [1.36.1 20161010-unknown-revn]
+	org.openide.text [6.62.1 20161010-unknown-revn]
+	org.openide.actions [6.35.1 20161010-unknown-revn]
+	org.netbeans.modules.keyring [1.20.1 20161010-unknown-revn]
+	org.openide.io [1.45.1 20161010-unknown-revn]
+	org.netbeans.bootstrap/1 [2.69.3 20171128-unknown-revn]
+	org.netbeans.core.startup/1 [1.55.5 20170928-unknown-revn]
+	org.netbeans.modules.queries/1 [1.39.1 20161010-unknown-revn]
+	org.openide.loaders [7.57.2 20170817-unknown-revn]
+	org.netbeans.modules.sampler [1.10.1 20161010-unknown-revn]
+	org.netbeans.core/2 [3.46.5 20180122-unknown-revn]
+	org.phansson.netbeans.net.nbnetauthenticator [1.2 190315]
+	org.openide.execution [1.36.1 20161010-unknown-revn]
+	org.netbeans.spi.tasklist/1 [1.30.1.1 1 20160425-unknown-revn]
+	org.netbeans.spi.quicksearch [1.23.1 20161010-unknown-revn]
+	org.netbeans.spi.palette/1 [1.42.7 20170911-unknown-revn]
+	org.netbeans.spi.navigator/1 [1.33.1 20160425-unknown-revn]
+	org.netbeans.modules.editor.settings/1 [1.53.1 20160425-unknown-revn]
+	org.netbeans.modules.editor.util/1 [1.58.1 20160425-unknown-revn]
+	org.netbeans.modules.lexer/2 [1.59.1.1 1 20160425-unknown-revn]
+	org.netbeans.modules.editor.lib2/1 [1.85.1.43 43 20160425-unknown-revn]
+	org.netbeans.modules.options.api/1 [1.41.3 20161013-unknown-revn]
+	org.netbeans.modules.options.keymap [1.31.1 20161013-unknown-revn]
+	org.netbeans.modules.editor.settings.storage/1 [1.45.2 20160425-unknown-revn]
+	org.netbeans.modules.editor.fold/1 [1.40.1 20160425-unknown-revn]
+	org.netbeans.modules.editor.indent/2 [1.37.1 20160425-unknown-revn]
+	org.netbeans.modules.editor.lib/3 [3.49.1.22.43 22 20160425-unknown-revn]
+	org.netbeans.spi.editor.hints/0 [1.35.1.7.43 7 20160425-unknown-revn]
+	org.netbeans.modules.project.indexingbridge [1.13.1 20160425-unknown-revn]
+	org.netbeans.api.java.classpath/1 [1.42.1 20160425-unknown-revn]
+	org.netbeans.modules.masterfs/2 [2.48.1 20161010-unknown-revn]
+	org.netbeans.libs.lucene/3 [3.16.1 20160425-unknown-revn]
+	org.netbeans.modules.parsing.lucene/2 [2.28.1.1 1 20160425-unknown-revn]
+	org.netbeans.modules.projectapi/1 [1.60.1 20160425-unknown-revn]
+	org.netbeans.modules.projectuiapi/1 [1.78.1.8 8 20160425-unknown-revn]
+	org.netbeans.modules.parsing.api/1 [1.78.1.8 8 20160425-unknown-revn]
+	org.netbeans.libs.javacapi [8.11.1.3 3 20160425-unknown-revn]
+	org.netbeans.modules.java.preprocessorbridge [1.35.1.1 1 20160425-unknown-revn]
+	org.netbeans.modules.classfile/1 [1.45.1 20160425-unknown-revn]
+	org.netbeans.modules.editor.fold.nbui [1.7.1.43 20160425-unknown-revn]
+	org.netbeans.modules.editor/3 [1.79.1.5.22.43 5 20160425-unknown-revn]
+	org.netbeans.modules.options.editor/1 [1.51.1 20160425-unknown-revn]
+	org.netbeans.modules.editor.indent.project/0 [1.18.1 20160425-unknown-revn]
+	org.netbeans.core.multiview/1 [1.40.2 20161010-unknown-revn]
+	org.netbeans.libs.javacimpl/1 [0.38.1.25 25 20160425-unknown-revn]
+	org.netbeans.lib.nbjavac [1.13.1.2.25 2 20160425-unknown-revn]
+	org.netbeans.api.java/1 [1.52.1 20160425-unknown-revn]
+	org.netbeans.modules.java.platform/1 [1.35.1 20160425-unknown-revn]
+	org.netbeans.modules.editor.errorstripe.api/1 [2.29.1.1 1 20160425-unknown-revn]
+	org.netbeans.modules.editor.errorstripe/2 [2.30.1.1.1 1 20160425-unknown-revn]
+	org.netbeans.modules.diff/1 [1.47.1.42.1 42 20160425-unknown-revn]
+	org.netbeans.modules.editor.guards/1 [1.26.1 20160425-unknown-revn]
+	org.netbeans.modules.refactoring.api [1.40.1.1 1 20160425-unknown-revn]
+	org.netbeans.modules.java.lexer/1 [1.28.1 20160425-unknown-revn]
+	org.netbeans.modules.java.source [0.138.1.32.2.25.8 32 20160425-unknown-revn]
+	org.netbeans.modules.whitelist [1.19.1 20160425-unknown-revn]
+	org.netbeans.modules.settings/1 [1.45.1 20161013-unknown-revn]
+	org.netbeans.modules.sendopts/2 [2.31.1 20161010-unknown-revn]
+	org.netbeans.modules.progress.ui [1.29.5 20161010-unknown-revn]
+	org.netbeans.modules.masterfs.nio2 [1.12.1 20161010-unknown-revn]
+	org.netbeans.libs.jna/1 [1.38.2 20170929-unknown-revn]
+	org.netbeans.modules.masterfs.linux [1.10.1 20161010-unknown-revn]
+	org.netbeans.modules.libs.groovy [1.4.1 20160425-unknown-revn]
+	org.netbeans.modules.lexer.nbbridge/1 [1.28.1.1 20160425-unknown-revn]
+	org.netbeans.core.ui/1 [1.41.10 20180216-unknown-revn]
+	org.netbeans.api.search [1.17.2 20161010-unknown-revn]
+	org.netbeans.modules.jumpto/1 [1.42.1.1 1 20160425-unknown-revn]
+	org.netbeans.modules.editor.bracesmatching/0 [1.34.1.43 20160425-unknown-revn]
+	org.netbeans.modules.editor.completion/1 [1.40.1.2 2 20160425-unknown-revn]
+	org.netbeans.modules.editor.codetemplates/1 [1.38.1.1 1 20160425-unknown-revn]
+	org.netbeans.modules.editor.breadcrumbs/0 [1.12.1 20160425-unknown-revn]
+	org.netbeans.modules.editor.actions/1 [1.26.1.43 20160425-unknown-revn]
+	org.netbeans.modules.csl.api/2 [2.47.1.2.1.1.8 2 20160425-unknown-revn]
+	org.netbeans.libs.nashorn/1 [1.16.1 20160425-unknown-revn]
+	org.netbeans.modules.javascript2.editor/1 [0.44.2 20160425-unknown-revn]
+	org.netbeans.modules.java.sourceui/1 [1.38.1.1.32 1 20160425-unknown-revn]
+	org.netbeans.modules.editor.deprecated.pre65formatting/0 [1.23.1.1.5.22.43 1 20160425-unknown-revn]
+	org.netbeans.modules.java.editor.lib/1 [1.34.1 20160425-unknown-revn]
+	org.netbeans.modules.java.editor/1 [2.60.1.11.1.1 11 20160425-unknown-revn]
+	org.netbeans.modules.groovy.editor/2 [1.59.2 20160425-unknown-revn]
+	org.netbeans.modules.extexecution/2 [1.42.2 20160425-unknown-revn]
+	org.netbeans.modules.extbrowser/1 [1.48.2 20160425-unknown-revn]
+	org.netbeans.modules.editor.plain.lib/1 [1.30.1 20160425-unknown-revn]
+	org.netbeans.modules.editor.plain/2 [1.31.1 20160425-unknown-revn]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.27.1 20161010-unknown-revn]
+	org.netbeans.modules.autoupdate.services [1.47.1 20161013-unknown-revn]
+	org.netbeans.core2 [2.3 190315]
+	org.netbeans.core.windows/2 [2.77.4 20170117-unknown-revn]
+	org.netbeans.core.output2/1 [1.37.2 20161013-unknown-revn]
+	org.netbeans.core.network [1.6.1 20161013-unknown-revn]
+	org.netbeans.core.io.ui/1 [1.26.3 20161010-unknown-revn]
+	org.netbeans.core.execution/1 [1.37.1 20161013-unknown-revn]
+	org.lobobrowser [2.2 190315]
+	org.junit [1.1 190315]
+	org.jdesktop.swingx [2.0 190315]
+	org.java_websocket [2.0 190315]
+	org.bouncycastle [1.1 190315]
+	org.apache.poi [2.0 190315]
+	org.apache.commons.validator [1.1 190315]
+	org.apache.commons.lang.maltego [1.2 190315]
+	org.apache.commons.io.maltego [1.2 190315]
+	net.lingala.zip4j [2.2.5 190315]
+	inet.ipaddr [1.1 190315]
+	com.twelvemonkeys.imageio [1.2 190315]
+	com.pinkmatter.pandora [2.1 190315]
+	com.paterva.maltego.util [2.53 190315]
+	com.bulenkov.darcula [2.7 190315]
+	com.fasterxml.jackson.core [1.2 190315]
+	com.googlecode.libphonenumber [1.1 190315]
+	com.paterva.maltego.typing [2.9 190315]
+	com.paterva.maltego.core [2.4 190315]
+	com.paterva.maltego.api [2.3 190315]
+	com.paterva.maltego.graph [2.2 190315]
+	com.paterva.maltego.graph.store [2.3 190315]
+	com.paterva.maltego.graph.selection [2.0 190315]
+	com.paterva.maltego.graph.wrapper [2.1 190315]
+	com.paterva.maltego.imgfactoryapi [2.10 190315]
+	com.paterva.maltego.certificates [1.9 190315]
+	com.paterva.maltego.util.ui [2.16 190315]
+	apple.laf [2.0 190315]
+	com.paterva.maltego.laf [2.7 190315]
+	com.paterva.maltego.sound [2.1 190315]
+	com.pinkmatter.modules.flamingo [2.3 190315]
+	com.paterva.maltego.xmpp [2.1 190315]
+	com.paterva.maltego.crypto [1.1 190315]
+	com.paterva.maltego.rest [1.2 190315]
+	com.google.gson [2.0 190315]
+	com.paterva.maltego.licensing [2.18 190315]
+	com.paterva.maltego.typing.descriptor [2.4 190315]
+	com.paterva.maltego.graph.cache [2.2 190315]
+	com.paterva.maltego.entity.api [2.8 190315]
+	com.paterva.maltego.archive.mtz [2.4 190315]
+	com.paterva.entity.serializer [2.1 190315]
+	com.paterva.maltego.entity.registry [2.6 190315]
+	com.paterva.maltego.matching [2.5 190315]
+	com.paterva.maltego.transform.api [2.1 190315]
+	com.paterva.maltego.transform.descriptor [2.7 190315]
+	com.paterva.maltego.icons.affiliations [2.3 190315]
+	com.paterva.maltego.icons.people [2.2 190315]
+	com.paterva.maltego.icons.technology [2.6 190315]
+	com.paterva.maltego.icons.threats [2.2 190315]
+	com.paterva.maltego.icons.transportation_locations [2.2 190315]
+	com.paterva.maltego.icons.viewlets [2.1 190315]
+	com.paterva.maltego.icons.flags [1.2 190315]
+	com.paterva.maltego.icons.general [2.2 190315]
+	com.paterva.maltego.imgfactory [2.17 190315]
+	com.paterva.maltego.typing.editing [2.9 190315]
+	com.paterva.maltego.transform.gen [1.1 190315]
+	com.paterva.maltego.transform.repository [2.5 190315]
+	com.paterva.maltego.pws.api [2.1 190315]
+	com.paterva.maltego.merging [2.9 190315]
+	com.paterva.maltego.transform.runner.api [2.8 190315]
+	com.paterva.maltego.transform.protocol.v2api [2.18 190315]
+	com.paterva.maltego.seeds.api [2.6 190315]
+	com.paterva.maltego.licensing.ui [2.21 190315]
+	com.paterva.maltego.java.config.ui [2.4 190315]
+	com.paterva.maltego.bookmarks.ui [2.0 190315]
+	com.paterva.maltego.view.customization.api [2.0 190315]
+	com.paterva.maltego.runregistry [2.0 190315]
+	com.paterva.maltego.importexport [2.3 190315]
+	com.paterva.maltego.customicons [2.14 190315]
+	com.paterva.maltego.entity.manager [2.13 190315]
+	com.paterva.maltego.treelist.lazy [2.2 190315]
+	com.paterva.maltego.serializers [2.7 190315]
+	com.paterva.maltego.treelist.parts [2.5 190315]
+	com.ctc.wstx [2.0 190315]
+	com.paterva.maltego.ui.graph [2.25 190315]
+	com.paterva.maltego.welcome [2.14 190315]
+	com.paterva.maltego.webtx [2.1 190315]
+	com.paterva.maltego.graph.undo [2.2 190315]
+	com.paterva.maltego.layout [2.4 190315]
+	com.paterva.maltego.view.mining [2.0 190315]
+	com.paterva.maltego.detailview [2.6 190315]
+	com.paterva.maltego.view.list [2.0 190315]
+	com.paterva.maltego.view.customization.ui [2.2 190315]
+	com.paterva.maltego.view.ball [2.0 190315]
+	com.paterva.maltego.notifications [1.3 190315]
+	com.paterva.maltego.graph.table [1.1 190315]
+	com.paterva.maltego.graph.table.io [2.5 190315]
+	com.paterva.maltego.transforms.tabular [1.3 190315]
+	com.paterva.maltego.tabular.transforms.run [1.3 190315]
+	com.paterva.maltego.error.reporting.ui [1.1 190315]
+	com.paterva.maltego.transform.discovery [2.6 190315]
+	com.paterva.maltego.transform.finder [2.9 190315]
+	com.paterva.maltego.tx.inputs.global [2.1 190315]
+	com.paterva.maltego.transform.manager [2.3 190315]
+	com.paterva.maltego.transform.runner [2.12 190315]
+	com.paterva.maltego.certificates.ui [1.5 190315]
+	com.paterva.maltego.seeds.ui [2.15 190315]
+	com.paterva.maltego.graph.table.ui [2.7 190315]
+	com.paterva.maltego.transforms.tabular.ui [1.3 190315]
+	com.paterva.maltego.tx.inputs.global.ui [2.2 190315]
+	com.github.scribejava [2.0 190315]
+	com.paterva.maltego.pws [2.5 190315]
+	com.paterva.maltego.update.kit.commercial [2.4 190315]
+	com.paterva.maltego.transform.protocol.v2 [2.6 190315]
+	com.paterva.maltego.satelliteview [2.0 190315]
+	com.paterva.maltego.runviews [2.1 190315]
+	com.paterva.maltego.reporting [2.7 190315]
+	com.paterva.maltego.propertyview [2.3 190315]
+	com.paterva.maltego.opencsv [2.0 190315]
+	com.paterva.maltego.mtgx [2.5 190315]
+	com.paterva.maltego.icons [1.1 190315]
+	com.paterva.maltego.graph.store.views [2.4 190315]
+	com.paterva.maltego.graph.external.api [2.0 190315]
+	com.paterva.maltego.graph.external [2.2 190315]
+	com.paterva.maltego.entities.common [2.8 190315]
+	com.paterva.maltego.graph.excel.io [2.4 190315]
+	com.paterva.maltego.graph.csv.io [2.2 190315]
+	com.paterva.maltego.find [2.6 190315]
+	com.paterva.maltego.feeder [2.0 190315]
+	com.paterva.maltego.feeder.websocket [2.0 190315]
+	com.paterva.maltego.entities.transform [2.0 190315]
+	com.paterva.maltego.chatapi [2.0 190315]
+	com.paterva.maltego.chat [2.2 190315]
+	com.paterva.maltego.collab [2.8 190315]
+	com.paterva.maltego.automation [2.8 190315]
+	com.paterva.graph.store [2.7 190315]
+	com.paterva.maltego.branding [2.6 190315]
+14:33:55.421 INFO [org.netbeans.ui.metrics.laf]: USG_LOOK_AND_FEEL
+14:33:58.891 Diagnostic information
+Input arguments:
+	-Djdk.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+	-Dnetbeans.dirs=/usr/share/maltego/maltego:/usr/share/maltego/groovy:/usr/share/maltego/ide:/usr/share/maltego/java:/usr/share/maltego/maltego-ui:/usr/share/maltego/maltego-core-platform:/usr/share/maltego/extra:
+	-Dnetbeans.home=/usr/share/maltego/platform
+	-Xms24m
+	-Xmx800m
+	-XX:+UseG1GC
+	-Djava.net.preferIPv4Stack=true
+	-Dsun.java2d.xrender=false
+	-XX:+HeapDumpOnOutOfMemoryError
+	-XX:HeapDumpPath=/home/raden/.maltego/v4.2.3/var/log/heapdump.hprof
+	-Dawt.useSystemAAFontSettings=on
+	-Dswing.aatext=true
+Compiler: HotSpot 64-Bit Tiered Compilers
+Heap memory usage: initial 24.0MB maximum 800.0MB
+Non heap memory usage: initial 2.4MB maximum -1b
+Garbage collector: G1 Young Generation (Collections=21 Total time spent=0s)
+Garbage collector: G1 Old Generation (Collections=0 Total time spent=0s)
+Classes: loaded=8598 total loaded=8600 unloaded 2
+14:33:58.892 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,172,101,632
+14:33:58.892 INFO [null]: Total physical memory 8,172,101,632
