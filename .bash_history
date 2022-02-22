@@ -196,3 +196,63 @@ sudo dpkg --configure -a
 ps cax | grep PID
 EXIT
 exit
+git clone https://github.com/DarkSecDevelopers/HiddenEye-Legacy.git
+git push -u origin main
+git status
+git add
+ls
+git add .
+git branch
+apt install git
+sudo apt install git
+git add
+git branch
+git clone https://github.com/DarkSecDevelopers/HiddenEye-Legacy.git
+git config --global usern.name "kevinraden25"
+git config --global user.name "kevinraden25"
+git config --global user.email "kevinraden25@gmail.com"
+git config -l
+git clone https://github.com/DarkSecDevelopers/HiddenEye-Legacy.git
+git add .
+git init
+git master
+git master add .
+git clone https://github.com/DarkSecDevelopers/HiddenEye-Legacy.git
+git clone https://gitub.com/sherlock-projects/sherlock.git
+git clone https://github.com/sherlock-projects/sherlock.git
+config --global user.name "kevinraden25"
+git config --global user.name "kevinraden25"
+git config --global user.email "kevinraden25@gmail.com"
+git config -l
+git clone https://github.com/kevinraden25/kevinraden25
+git clone https://github.com/kevinraden25/tes.git
+git init
+git add README.md
+git add .
+git clone https://gitub.com/sherlock-projects/sherlock.git
+git clone https://github.com/sherlock-projects/sherlock.git
+git add .
+git commit -m "demo commit"
+git push
+git push kevinraden25
+git push test
+git clone https://github.com/sherlock-projects/sherlock.git
+git config --global credential.helper cache
+git config --global --unset credential.helper
+git config --system --unset credential.helper
+git init
+cd /home/raden
+cd home
+ls
+cd instainsane
+ls
+sudo bash instainsane.sh
+sudo bash install.sh
+sudo dpk -- configure -a
+sudo dpkg -- configure -a
+sudo dpkg --configure -a
+sudo bash install.sh
+apt --fix-broken install
+sudo apt --fix-broken install
+sudo bash install.sh
+sudo bash instainsane.sh

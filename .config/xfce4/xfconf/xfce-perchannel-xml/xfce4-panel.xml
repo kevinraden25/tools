@@ -72,6 +72,8 @@
     </property>
     <property name="plugin-14" type="string" value="clock">
       <property name="digital-format" type="string" value="%I:%M %p"/>
+      <property name="timezone" type="string" value="jakarta"/>
+      <property name="mode" type="uint" value="2"/>
     </property>
     <property name="plugin-15" type="string" value="systray">
       <property name="show-frame" type="bool" value="false"/>

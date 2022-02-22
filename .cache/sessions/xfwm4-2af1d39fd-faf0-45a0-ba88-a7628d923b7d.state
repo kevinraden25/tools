@@ -1,0 +1,26 @@
+[CLIENT] 0x4a000ea
+  [CLIENT_ID] 2236568da-3eaa-40bc-b235-feef9d943b02
+  [CLIENT_LEADER] 0x4a00001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox-esr
+  [WM_NAME] [Solved] Git always gives "Reinitialized existing Git repository" / Applications & Desktop Environments / Arch Linux Forums - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox-esr"
+  [GEOMETRY] (0,59,1366,709)
+  [GEOMETRY-MAXIMIZED] (0,105,1229,663)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10300
+[CLIENT] 0x4a00003
+  [CLIENT_ID] 2236568da-3eaa-40bc-b235-feef9d943b02
+  [CLIENT_LEADER] 0x4a00001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox-esr
+  [WM_NAME] GitHub - Soldie/HiddenEye-DarkSecDevelopers - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox-esr"
+  [GEOMETRY] (0,59,1366,709)
+  [GEOMETRY-MAXIMIZED] (0,105,1229,663)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10380
